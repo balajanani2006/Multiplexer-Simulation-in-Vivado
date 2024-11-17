@@ -64,6 +64,7 @@ Verilog Code
 4:1 MUX Gate-Level Implementation
 
 // mux4_to_1_gate.v
+```
 module mux4_to_1_gate (
     input wire A,
     input wire B,
@@ -93,6 +94,7 @@ endmodule
 4:1 MUX Data Flow Implementation
 
 // mux4_to_1_dataflow.v
+```
 module mux4_to_1_dataflow (
     input wire A,
     input wire B,
@@ -111,6 +113,7 @@ endmodule
 4:1 MUX Behavioral Implementation
 
 // mux4_to_1_behavioral.v
+```
 module mux4_to_1_behavioral (
     input wire A,
     input wire B,
@@ -134,6 +137,7 @@ endmodule
 4:1 MUX Structural Implementation
 
 // mux2_to_1.v
+```
 module mux2_to_1 (
     input wire A,
     input wire B,
@@ -145,6 +149,7 @@ endmodule
 
 
 // mux4_to_1_structural.v
+```
 module mux4_to_1_structural (
     input wire A,
     input wire B,
@@ -168,7 +173,7 @@ Testbench Implementation
 
 // mux4_to_1_tb.v
 `timescale 1ns / 1ps
-
+```
 module mux4_to_1_tb;
     // Inputs
     reg A;
